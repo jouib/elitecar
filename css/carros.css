@@ -1,4 +1,4 @@
-.painel-principal {
+.container {
     width: 100%;
     height: 90vh;
 
@@ -6,40 +6,40 @@
     flex-direction: row;
 }
 
-.painel-esquerdo,
-.painel-direito {
+.esquerda,
+.direita {
     width: 50%;
 }
 
-.painel-esquerdo {
+.esquerda {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.painel-esquerdo img {
+.esquerda img {
     width: 50%;
     margin-top: 15%;
 }
 
-.painel-esquerdo div {
+.esquerda div {
     margin-top: 7%
 }
 
-.painel-esquerdo p {
+.esquerda p {
     font-size: 26px;
     text-align: center;
     margin: 0 40px 20px 40px;
 }
 
-.painel-direito {
+.direita {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.painel-direito img {
+.direita img {
     width: 600px;
 
     transform: scaleX(-1);

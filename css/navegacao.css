@@ -26,7 +26,3 @@ a:hover {
     color: var(--bg-color);
     text-decoration: none;
 }
-
-a::selection {
-    background-color: red;
-}
